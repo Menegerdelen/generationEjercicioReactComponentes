@@ -1,12 +1,47 @@
-# React + Vite
+# 🎯 Requerimientos - Migración HTML/CSS a React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Lo que vas a hacer
 
-Currently, two official plugins are available:
+### 🛠️ **Configuración inicial de React**
+- Asegúrate de tener Node.js y npm instalados en tu sistema
+- Crea un nuevo proyecto de React utilizando Vite
+- Navega hasta la carpeta de tu proyecto en la terminal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📁 **Estructura del proyecto** 
+- Organiza tu proyecto de React en una estructura de carpetas adecuada
+- Usa `src/components` para los componentes
+- Divide la maqueta en componentes
 
-## Expanding the ESLint configuration
+### 🧩 **Análisis y división de componentes**
+- Analiza la maqueta HTML y CSS (entregados en los links de ejemplo)
+- Decide cómo dividirla en componentes de React
+- Cada sección o elemento importante debe ser un componente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ⚛️ **Creación de componentes**
+- Crea archivos JavaScript React (.jsx) para cada componente en `src/components`
+- Usa functional components para definir los componentes
+
+### 🔄 **Migración de HTML a componentes**
+- Copia el HTML relevante de la maqueta a los archivos de componentes correspondientes
+- Convierte las etiquetas HTML en JSX
+- Mantén la estructura y las clases CSS
+
+### 🎨 **Estilos CSS**
+- Copia los estilos CSS de la maqueta original a un archivo CSS
+
+### 📦 **Importación de componentes**
+- En cada componente, importa los componentes necesarios que hayas creado
+- Usa estos componentes dentro de tu componente principal
+
+### 🏠 **Componente raíz**
+- Crea un componente raíz que contenga todos los demás componentes
+- Organiza la estructura general de la página
+
+### 📱 **Estilización y responsividad**
+- Asegúrate de que la aplicación se vea bien en diferentes tamaños de pantalla
+- Mantén el CSS responsive para todos los dispositivos
+
+### 📝 **Documentación y comentarios**
+- Documenta tus componentes, propiedades y configuración especial
+- Agrega comentarios claros y descriptivos
+- Facilita que otros desarrolladores puedan entender tu trabajo
